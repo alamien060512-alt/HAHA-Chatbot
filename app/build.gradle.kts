@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.imhungry.looiai"
+    namespace = "com.imhungry.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.imhungry.looiai"
+        applicationId = "com.imhungry.app"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
