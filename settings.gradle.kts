@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "LooiAI"
+rootProject.name = "RexAI"
 include(":app")
