@@ -1,4 +1,4 @@
-name: Build LooiAI APK
+name: Build APK
 
 on:
   push:
@@ -69,20 +69,19 @@ jobs:
         run: ./gradlew assembleRelease --no-daemon
 
       - name: Sign APK
-        if: ${{ secrets.KEYSTORE_BASE64 != '' }}
-        uses: r0adkll/sign-android-release@v1
         id: sign_app
+        uses: r0adkll/sign-android-release@v1
         with:
           releaseDirectory: app/build/outputs/apk/release
           signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
           alias: ${{ secrets.KEY_ALIAS }}
           keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
           keyPassword: ${{ secrets.KEY_PASSWORD }}
+        continue-on-error: true
 
       - name: Upload release APK
         uses: actions/upload-artifact@v4
         with:
           name: LooiAI-release
-          path: |
-            app/build/outputs/apk/release/app-release*.apk
+          path: app/build/outputs/apk/release/app-release*.apk
           retention-days: 30
