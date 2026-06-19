@@ -1,0 +1,6 @@
+-keep class com.imhungry.looiai.data.** { *; }
+-keep class com.imhungry.looiai.api.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**

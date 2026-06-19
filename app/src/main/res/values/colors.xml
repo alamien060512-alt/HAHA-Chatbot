@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="looi_bg">#0D0D14</color>
+    <color name="looi_surface">#16161F</color>
+    <color name="looi_surface2">#1E1E2A</color>
+    <color name="looi_accent">#6C63FF</color>
+    <color name="looi_accent_dim">#3D3880</color>
+    <color name="looi_eye">#A8B4FF</color>
+    <color name="looi_text">#EEEEF5</color>
+    <color name="looi_text_dim">#8888A8</color>
+    <color name="looi_bubble_user">#2A2A3E</color>
+    <color name="looi_bubble_ai">#1A1A28</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

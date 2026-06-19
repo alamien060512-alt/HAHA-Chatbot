@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Looi AI</string>
+    <string name="hint_message">Talk to Looi…</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_setup">Get started</string>
+    <string name="label_api_key">OpenRouter API key</string>
+    <string name="label_model">Model</string>
+    <string name="label_personality">Personality</string>
+    <string name="label_name">Looi\'s name</string>
+    <string name="pref_api_key">pref_api_key</string>
+    <string name="pref_model">pref_model</string>
+    <string name="pref_personality">pref_personality</string>
+    <string name="pref_robot_name">pref_robot_name</string>
+    <string name="default_robot_name">Looi</string>
+    <string name="error_no_key">Please set your OpenRouter API key in Settings.</string>
+    <string name="status_thinking">Thinking…</string>
+    <string name="cd_robot_face">Robot face</string>
+    <string name="title_settings">Settings</string>
+    <string name="splash_tagline">Your AI desktop companion</string>
+</resources>

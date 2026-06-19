@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Head body -->
+    <path
+        android:fillColor="#1E1E2A"
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="2"
+        android:pathData="M30,60 Q30,30 60,30 L140,30 Q170,30 170,60 L170,150 Q170,170 150,170 L50,170 Q30,170 30,150 Z" />
+
+    <!-- Ear left -->
+    <path
+        android:fillColor="#16161F"
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="1.5"
+        android:pathData="M18,80 L30,80 L30,110 L18,110 Q12,110 12,105 L12,85 Q12,80 18,80 Z" />
+
+    <!-- Ear right -->
+    <path
+        android:fillColor="#16161F"
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="1.5"
+        android:pathData="M170,80 L182,80 Q188,80 188,85 L188,105 Q188,110 182,110 L170,110 Z" />
+
+    <!-- Antenna base -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M96,30 L104,30 L104,14 L96,14 Z" />
+
+    <!-- Antenna ball -->
+    <path
+        android:fillColor="#A8B4FF"
+        android:pathData="M100,8 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Eye left outer -->
+    <path
+        android:fillColor="#0D0D14"
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="2"
+        android:pathData="M55,85 m-22,0 a22,22 0 1,0 44,0 a22,22 0 1,0 -44,0" />
+
+    <!-- Eye left iris -->
+    <path
+        android:fillColor="#A8B4FF"
+        android:pathData="M55,85 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+
+    <!-- Eye left pupil -->
+    <path
+        android:fillColor="#0D0D14"
+        android:pathData="M55,85 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- Eye left shine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,80 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Eye right outer -->
+    <path
+        android:fillColor="#0D0D14"
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="2"
+        android:pathData="M145,85 m-22,0 a22,22 0 1,0 44,0 a22,22 0 1,0 -44,0" />
+
+    <!-- Eye right iris -->
+    <path
+        android:fillColor="#A8B4FF"
+        android:pathData="M145,85 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+
+    <!-- Eye right pupil -->
+    <path
+        android:fillColor="#0D0D14"
+        android:pathData="M145,85 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- Eye right shine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M149,80 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Mouth panel -->
+    <path
+        android:fillColor="#0D0D14"
+        android:strokeColor="#3D3880"
+        android:strokeWidth="1"
+        android:pathData="M60,130 Q60,120 70,120 L130,120 Q140,120 140,130 L140,150 Q140,158 130,158 L70,158 Q60,158 60,150 Z" />
+
+    <!-- Mouth smile segments -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M68,140 L80,140 L80,148 Q74,150 68,148 Z" />
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M84,136 L96,136 L96,148 L84,148 Z" />
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M100,136 L112,136 L112,148 L100,148 Z" />
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M116,140 L128,140 L128,148 Q122,150 116,148 Z" />
+
+    <!-- Cheek left indicator -->
+    <path
+        android:fillColor="#A8B4FF"
+        android:alpha="0.4"
+        android:pathData="M36,120 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+    <!-- Cheek right indicator -->
+    <path
+        android:fillColor="#A8B4FF"
+        android:alpha="0.4"
+        android:pathData="M164,120 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+</vector>

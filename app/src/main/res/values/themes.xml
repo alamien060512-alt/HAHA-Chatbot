@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LooiAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/looi_accent</item>
+        <item name="colorPrimaryVariant">@color/looi_accent_dim</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/looi_surface</item>
+        <item name="colorOnSurface">@color/looi_text</item>
+        <item name="android:windowBackground">@color/looi_bg</item>
+        <item name="android:statusBarColor">@color/looi_bg</item>
+        <item name="android:navigationBarColor">@color/looi_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.LooiAI.Splash" parent="Theme.LooiAI">
+        <item name="android:windowBackground">@color/looi_bg</item>
+    </style>
+
+</resources>
